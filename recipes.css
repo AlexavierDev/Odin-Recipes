@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    gap: 30px;
+    background: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(img/cozinhaBackground.jpg);
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .8);
+    max-width: 1000px;
+    border-radius: 5px;
+}
+
+h1 {
+    padding: 30px;
+    font-size: 45px;
+}
+
+img {
+    display: block;
+    height: 500px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#btnBack {
+    color: #000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#btnBack:hover {
+    background-color: rgb(177, 6, 6);
+    color: #fff;
+}
+
+@media(max-width:780px) {
+    img {
+        height: 230px
+    }
+}
