@@ -38,7 +38,7 @@ img {
     border-radius: 5px;
 }
 
-#btnBack {
+.btnBack {
     color: #000;
     background-color: #fff;
     padding: 20px;
@@ -46,7 +46,7 @@ img {
     width: 100%;
 }
 
-#btnBack:hover {
+.btnBack:hover {
     background-color: rgb(177, 6, 6);
     color: #fff;
 }
